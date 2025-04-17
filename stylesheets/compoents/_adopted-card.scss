@@ -1,0 +1,16 @@
+.img-hover{
+  opacity: 0;
+}
+.img-hover-switch:hover .img-hover{
+  opacity: 1;
+}
+.img-hover-switch:hover .img-normal{
+  opacity: 0;
+}
+
+.img-hover-switch:hover a{
+  color: $primary;
+}
+.img-hover-switch a{
+  color: black;
+}

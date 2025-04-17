@@ -1,0 +1,15 @@
+.aside-link:hover .deco-link {
+  display: inline-block;
+}
+.aside-link:hover {
+  color: #f9c745;
+}
+.aside-link {
+  color: black;
+}
+.deco-link {
+  display: none;
+  border-top: 3px solid #f9c745;
+  width: 15px;
+  height: 10px;
+}

@@ -18,9 +18,14 @@
 </head>
 
 <body>
-  <img class="position-fixed fix-img d-none d-lg-block"
-    src="https://images.unsplash.com/photo-1474511320723-9a56873867b5?q=80&w=2944&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-    alt="">
+  <div class="img-hover-switch">
+    <img class="position-fixed fix-img d-none d-lg-block img-normal"
+      src="https://images.unsplash.com/photo-1474511320723-9a56873867b5?q=80&w=2944&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      alt="">
+    <img class="position-fixed fix-img d-none d-lg-block img-hover"
+      src="https://images.unsplash.com/photo-1744877478622-a78c7a3336f6?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      alt="">
+  </div>
   <nav class="navbar navbar-expand-lg navbar-light bg-white mb-3">
     <div class="container">
       <a class="navbar-brand" href="#">
@@ -104,25 +109,61 @@
       <div class="row row-cols-2 row-cols-lg-4 gy-3 ">
         <div class="col  product-img">
           <div class="position-relative">
-            <div class=" position-absolute hide-text    bg-dark-gradient w-100 h-100  ">
-              <p>
-              <div class="mb-3">
-                designer
+            <div class=" position-absolute     bg-dark-gradient w-100 h-100   ">
+              <div class="position-absolute hide-text">
+                <div class="mb-2">
+                  designer
+                </div>
+                Meli
               </div>
-              Meli
-              </p>
             </div>
             <img class="w-100" src="./images/dog05.png" alt="">
           </div>
         </div>
-        <div class="col"><img class="w-100" src="./images/cat.png" alt=""></div>
-        <div class="col"><img class="w-100" src="./images/dog05.png" alt=""></div>
-        <div class="col"><img class="w-100" src="./images/cat.png" alt=""></div>
+        <div class="col  product-img">
+          <div class="position-relative">
+            <div class=" position-absolute     bg-dark-gradient w-100 h-100   ">
+              <div class="position-absolute hide-text">
+                <div class="mb-2">
+                  designer
+                </div>
+                Meli
+              </div>
+            </div>
+            <img class="w-100" src="./images/cat.png" alt="">
+          </div>
+        </div>
+        <div class="col  product-img">
+          <div class="position-relative">
+            <div class=" position-absolute     bg-dark-gradient w-100 h-100   ">
+              <div class="position-absolute hide-text">
+                <div class="mb-2">
+                  designer
+                </div>
+                Meli
+              </div>
+            </div>
+            <img class="w-100" src="./images/dog05.png" alt="">
+          </div>
+        </div>
+        <div class="col  product-img">
+          <div class="position-relative">
+            <div class=" position-absolute     bg-dark-gradient w-100 h-100   ">
+              <div class="position-absolute hide-text">
+                <div class="mb-2">
+                  designer
+                </div>
+                Meli
+              </div>
+            </div>
+            <img class="w-100" src="./images/cat.png" alt="">
+          </div>
+        </div>
       </div>
     </div>
 
     <div class="text-center mb-5">
-      <a class="btn btn-outline-dark btn-rounded px-5 me-3" href="#">查看更多作品</a>
+      <a class="btn btn-outline-dark btn-rounded custom-button px-5 me-3" href="#">查看更多作品</a>
       <a class="d-none d-lg-inline btn btn-primary btn-rounded px-5" href="#">課製毛孩似顏繪</a>
     </div>
 
@@ -137,11 +178,13 @@
       <p>這裡是在還在等家的浪浪們，若您正巧在找個家人，不訪來認識一下唄</p>
     </div>
 
-    <div class="container mb-5">
+
+    <div class=" container mb-5">
       <div class="row row-cols-1 row-cols-lg-3 gy-3 mb-5">
         <div class="col">
-          <div class="card border-0 shadow-lg">
-            <img src="./images/dog01.png" class="card-img-top" alt="...">
+          <div class="card border-0 shadow-lg  img-hover-switch position-relative">
+            <img src="./images/dog01.png" class="  card-img-top" alt="..."></img>
+            <img src="./images/04.png" class="position-absolute img-hover  card-img-top" alt="..."></img>
             <div class="card-body p-4">
               <h5 class="card-title">等家中-華仔</h5>
               <p class="card-text mb-3">
@@ -149,39 +192,41 @@
               </p>
               <hr>
               <div class="text-center  ">
-                <a href="#" class="fw-bold text-dark text-decoration-none">MORE</a>
+                <a href="#" class="fw-bold text-decoration-none ">MORE</a>
               </div>
             </div>
 
           </div>
         </div>
         <div class="col">
-          <div class="card border-0 shadow-lg">
-            <img src="./images/04.png" class="card-img-top" alt="...">
+          <div class="card border-0 shadow-lg  img-hover-switch position-relative">
+            <img src="./images/dog01.png" class="  card-img-top" alt="..."></img>
+            <img src="./images/04.png" class="position-absolute img-hover  card-img-top" alt="..."></img>
             <div class="card-body p-4">
-              <h5 class="card-title">等家中-小呆</h5>
+              <h5 class="card-title">等家中-華仔</h5>
               <p class="card-text mb-3">
-                小呆有著圓圓的大眼睛，一歲的他來自台中，原本陪著一位老奶奶生活，上個月奶奶行動不便不能再陪...
+                目前7個月大的華仔，是個愛笑的貪吃鬼，喜歡吃西瓜還有蓮霧，是一隻吃素的乖狗狗，會挑食不喜歡...
               </p>
               <hr>
               <div class="text-center  ">
-                <a href="#" class="fw-bold text-dark text-decoration-none">MORE</a>
+                <a href="#" class="fw-bold text-decoration-none ">MORE</a>
               </div>
             </div>
 
           </div>
         </div>
         <div class="col">
-          <div class="card border-0 shadow-lg">
-            <img src="./images/08.png" class="card-img-top" alt="...">
+          <div class="card border-0 shadow-lg  img-hover-switch position-relative">
+            <img src="./images/dog01.png" class="  card-img-top" alt="..."></img>
+            <img src="./images/04.png" class="position-absolute img-hover  card-img-top" alt="..."></img>
             <div class="card-body p-4">
-              <h5 class="card-title">等家中-Snow</h5>
+              <h5 class="card-title">等家中-華仔</h5>
               <p class="card-text mb-3">
-                看起來很兇但特別怕打雷的Snow，很喜歡吃冰，冰冰的水也喜歡，如果摸他的額頭會發出吹口哨的聲...
+                目前7個月大的華仔，是個愛笑的貪吃鬼，喜歡吃西瓜還有蓮霧，是一隻吃素的乖狗狗，會挑食不喜歡...
               </p>
               <hr>
               <div class="text-center  ">
-                <a href="#" class="fw-bold text-dark text-decoration-none">MORE</a>
+                <a href="#" class="fw-bold text-decoration-none ">MORE</a>
               </div>
             </div>
 
@@ -189,7 +234,7 @@
         </div>
       </div>
       <div class="text-center ">
-        <a class="btn btn-outline-dark btn-rounded px-5 me-3" href="#">看看更多浪浪</a>
+        <a class="btn btn-outline-dark custom-button btn-rounded px-5 me-3" href="#">看看更多浪浪</a>
       </div>
     </div>
   </section>
@@ -206,7 +251,7 @@
               <div class="col text-center text-lg-start">
                 <div class="fs-3">加入奴才團隊</div>
                 <div class=" mb-3">我也會畫畫，希望能盡一份心力！</div>
-                <a class="btn btn-outline-dark btn-rounded px-5 me-3" href="#">聯絡我們</a>
+                <a class="btn btn-outline-dark btn-rounded custom-button px-5 me-3" href="#">聯絡我們</a>
               </div>
               <div class="col text-center">
                 <img class="w-lg-100 object-fit-cover" src="./images/link02.png" alt="">
@@ -214,7 +259,7 @@
               <div class="col text-center text-lg-start">
                 <div class="fs-3">加入奴才團隊</div>
                 <div class=" mb-3">我也會畫畫，希望能盡一份心力！</div>
-                <a class="btn btn-outline-dark btn-rounded px-5 me-3" href="#">領養專區</a>
+                <a class="btn btn-outline-dark btn-rounded custom-button px-5 me-3" href="#">領養專區</a>
               </div>
             </div>
           </div>
