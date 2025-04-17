@@ -1,0 +1,20 @@
+.header {
+  background-size: cover;
+  background-position: bottom center;
+  background-image: url("../../images/home_mobile.png");
+  height: 643px;
+  @media (min-width: 1199.98px) {
+    height: 810px;
+    background-image: url("../../images/home.png");
+  }
+}
+
+.banner {
+  background-size: cover;
+  background-image: url("../../images/banner_service-sm.png");
+  height: 215px;
+  @media (min-width: 1199.98px) {
+    height: 288px;
+    background-image: url("../../images/banner.png");
+  }
+}

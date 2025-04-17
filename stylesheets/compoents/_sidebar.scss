@@ -1,0 +1,10 @@
+$sidebar-width: 400px;
+.sidebar {
+  @media (min-width: 1199.98px) {
+    width: $sidebar-width;
+  }
+}
+
+.main {
+  width: calc(100vw-#{$sidebar-width});
+}
