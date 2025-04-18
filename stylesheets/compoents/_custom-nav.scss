@@ -1,0 +1,7 @@
+.custom-nav{
+  border-bottom: 1px #{$primary} solid;
+  padding-bottom: 20px;
+  @media (min-width: 1199.98px) {
+    border-bottom: 0;
+  }
+}

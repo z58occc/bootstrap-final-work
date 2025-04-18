@@ -13101,12 +13101,12 @@ textarea.form-control-lg {
   --bs-pagination-font-size: 1rem;
   --bs-pagination-color: var(--bs-link-color);
   --bs-pagination-bg: var(--bs-body-bg);
-  --bs-pagination-border-width: var(--bs-border-width);
+  --bs-pagination-border-width: 0;
   --bs-pagination-border-color: var(--bs-border-color);
   --bs-pagination-border-radius: var(--bs-border-radius);
-  --bs-pagination-hover-color: var(--bs-link-hover-color);
-  --bs-pagination-hover-bg: var(--bs-tertiary-bg);
-  --bs-pagination-hover-border-color: var(--bs-border-color);
+  --bs-pagination-hover-color: #F9C745;
+  --bs-pagination-hover-bg: white;
+  --bs-pagination-hover-border-color: white;
   --bs-pagination-focus-color: var(--bs-link-hover-color);
   --bs-pagination-focus-bg: var(--bs-secondary-bg);
   --bs-pagination-focus-box-shadow: 0 0 0 0.25rem rgba(249, 199, 69, 0.25);
@@ -13171,7 +13171,7 @@ textarea.form-control-lg {
 }
 
 .page-item:not(:first-child) .page-link {
-  margin-left: calc(-1 * var(--bs-border-width));
+  margin-left: calc(-1 * 0);
 }
 .page-item:first-child .page-link {
   border-top-left-radius: var(--bs-pagination-border-radius);
@@ -21253,6 +21253,10 @@ textarea.form-control-lg {
   left: 30px;
 }
 
+.custom-rounded {
+  border-radius: 28px;
+}
+
 .img-hover {
   opacity: 0;
 }
@@ -21289,5 +21293,24 @@ textarea.form-control-lg {
   display: none;
   border-top: 3px solid #f9c745;
   width: 15px;
-  height: 10px;
+  height: 8px;
+  margin-right: 10px;
+}
+
+.custom-nav {
+  border-bottom: 1px #F9C745 solid;
+  padding-bottom: 20px;
+}
+@media (min-width: 1199.98px) {
+  .custom-nav {
+    border-bottom: 0;
+  }
+}
+
+.img-rounded {
+  border-radius: 24px;
+}
+
+.nav-link:hover {
+  color: #F9C745;
 }/*# sourceMappingURL=all.css.map */
